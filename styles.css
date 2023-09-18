@@ -1,0 +1,70 @@
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#description {
+    text-align: center;
+    color: #bbb;
+}
+
+#survey-form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.horizontal-div {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: left;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    margin: 20px auto 0 auto;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
